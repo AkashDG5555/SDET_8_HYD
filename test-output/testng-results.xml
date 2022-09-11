@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-09T14:47:04 IST" name="Default suite" finished-at="2022-09-09T14:47:49 IST" duration-ms="45261">
+    <groups>
+    </groups>
+    <test started-at="2022-09-09T14:47:04 IST" name="Default test" finished-at="2022-09-09T14:47:49 IST" duration-ms="45261">
+      <class name="Iphone_price_Comparison">
+        <test-method signature="FlipkardIphonePrice()[pri:0, instance:Iphone_price_Comparison@49912c99]" started-at="2022-09-09T14:47:04 IST" name="FlipkardIphonePrice" finished-at="2022-09-09T14:47:49 IST" duration-ms="45164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkardIphonePrice -->
+      </class> <!-- Iphone_price_Comparison -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
