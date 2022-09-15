@@ -44,7 +44,6 @@ public class Tc_2 extends BaseClass {
 //		LoginClass lc=new LoginClass(driver);
 //		lc.setLogin(UN, PWD);
 		HomePageClass hp=new HomePageClass(driver);
-		int a=10/0;
 		hp.getorgLink();
 		OrganisationPageClass co=new OrganisationPageClass(driver);
 		co.CreateNewOrg();

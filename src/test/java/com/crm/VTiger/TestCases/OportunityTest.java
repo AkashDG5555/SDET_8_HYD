@@ -31,7 +31,6 @@ public class OportunityTest extends BaseClass {
 //		lc.setLogin(UN, PWD);
 		HomePageClass hp=new HomePageClass(driver);
 		hp.getOportynityLink();
-		int a=10/0;
 		OportunityPageClass op= new OportunityPageClass(driver);
 		op.CreateNewOprtunity();
 		CreateNewOprtPageClass cn= new CreateNewOprtPageClass(driver);
