@@ -1,6 +1,10 @@
 package GenericLibrary;
 
 
+import java.io.File;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,6 +13,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+
+import com.google.common.io.Files;
 
 import object_repository.HomePageClass;
 import object_repository.LoginClass;
@@ -57,5 +63,15 @@ public class BaseClass {
 	public void closeVrowser() {
 		System.out.println("======close Browser====");
 		driver.close();
+	}
+	
+	public static String takingScreenshot(String name) throws Throwable
+	{
+		TakesScreenshot ts = (TakesScreenshot)sdriver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		String path="./screenshot/"+name+".png";
+		File dest=new File(path);
+		Files.copy(src, dest);
+		return path;
 	}
 }

@@ -8,10 +8,6 @@
     <classes>
       <class name="com.crm.VTiger.TestCases.Tc_2"/>
       <class name="com.crm.VTiger.TestCases.Tc_1"/>
-      <class name="com.crm.VTiger.TestCases.OportunityTest"/>
-      <class name="com.crm.VTiger.TestCases.TC_3"/>
-      <class name="com.crm.VTiger.TestCases.CreateOpportunitywithSalesStageNeedAnalysis"/>
-      <class name="com.crm.VTiger.TestCases.CreateOpportunitywithSalesStageValueProposition"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
