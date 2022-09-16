@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="Iphone_price_Comparison">
+      <class name="com.crm.VTiger.TestCases.CreateOpportunitywithSalesStageValueProposition">
         <methods>
-          <include name="FlipkardIphonePrice"/>
+          <include name="logout"/>
+          <include name="setLogin"/>
+          <include name="view"/>
+          <include name="closeVrowser"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- Iphone_price_Comparison -->
+      </class> <!-- com.crm.VTiger.TestCases.CreateOpportunitywithSalesStageValueProposition -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

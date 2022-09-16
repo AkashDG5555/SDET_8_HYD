@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="com.crm.VTiger.TestCases.Tc_2"/>
+      <class name="com.crm.VTiger.TestCases.Tc_1"/>
+      <class name="com.crm.VTiger.TestCases.CreateOpportunitywithSalesStageValueProposition"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -48,6 +48,7 @@ public class Tc_1 extends BaseClass {
 		
 	    Org_Info_Page oi=new Org_Info_Page(driver);
 	    oi.setOrgInfoVerification();
+	    
 //		hp.setLogout(driver);		
 	}
 }
