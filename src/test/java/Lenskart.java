@@ -21,6 +21,6 @@ public class Lenskart {
 			String str = x.getText();
 			System.out.println(str);
 		}
-		
+
 	}
 }

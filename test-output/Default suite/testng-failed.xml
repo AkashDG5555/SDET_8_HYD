@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Iphone_price_Comparison">
+      <class name="Makemytrip3">
         <methods>
-          <include name="FlipkardIphonePrice"/>
+          <include name="Makemytrip3" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- Iphone_price_Comparison -->
+      </class> <!-- Makemytrip3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
